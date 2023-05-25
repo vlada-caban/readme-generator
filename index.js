@@ -18,7 +18,8 @@ const questions = [
   {
     type: "input",
     name: "project_install",
-    message: "Please enter installation instructions: ",
+    message: "Please enter installation command to run to install dependencies: ",
+    default: "npm i"
   },
   {
     type: "input",
@@ -39,7 +40,7 @@ const questions = [
     type: "list",
     name: "project_license",
     message: "Please select license: ",
-    choices: ["MIT License", "Apache License", "BSD License", "No license"],
+    choices: ["MIT", "Apache", "BSD", "No license"],
   },
   {
     type: "input",

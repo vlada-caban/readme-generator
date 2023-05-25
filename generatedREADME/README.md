@@ -1,28 +1,37 @@
-# dnbxfgd 
+# bzdfb 
+  ![License Badge](https://img.shields.io/badge/License-MIT-green)
+
   ## Description 
-  xdnbf
-  
+  zdb
+  ---
   ## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-$~$
-- [License](#license)
-$~$
 - [Tests](#tests)
+- [Questions](#questions)
+- [License](#license)
 
 ## Installation
-dfnd
 
+To install necessary dependencies, run the following command:
+
+```npm i```
 ## Usage
-dfbnd
+dbf
 
 ## Contributing
-dfnb
-
-## License
-hello
+zdfb
 
 ## Tests
-zdfb
+zsdbf
+
+## Questions
+GitHub profile: [fzdb](https://github.com/fzdb)
+
+For questions, please email at fdb
+
+## License 
+  License: MIT
+
