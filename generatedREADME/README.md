@@ -1,8 +1,8 @@
-# bzdfb 
-  ![License Badge](https://img.shields.io/badge/License-MIT-green)
+# MealFlick 
+  
 
   ## Description 
-  zdb
+  sfsdfv
   ---
   ## Table of Contents
 
@@ -11,27 +11,27 @@
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-- [License](#license)
+
 
 ## Installation
 
 To install necessary dependencies, run the following command:
 
 ```npm i```
+
 ## Usage
-dbf
+agvagv
 
 ## Contributing
-zdfb
+agv
 
 ## Tests
-zsdbf
+agvfed
 
 ## Questions
-GitHub profile: [fzdb](https://github.com/fzdb)
+GitHub profile: [vlada-caban](https://github.com/vlada-caban)
 
-For questions, please email at fdb
+For questions, please email at vladaonly@gmail.com
 
-## License 
-  License: MIT
+
 

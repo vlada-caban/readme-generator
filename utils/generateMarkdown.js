@@ -1,36 +1,27 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// Function to render License badge
+// If there is no license, function returns an empty string
 function renderLicenseBadge(license) {
   return license !== "No license"
     ? `![License Badge](https://img.shields.io/badge/License-${license}-green)`
     : "";
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+//Function to render License link for Table of content section
+// If there is no license, function returns an empty string
 function renderLicenseLink(license) {
-  //actual link to the license?
-  //table of content link
-  // if (license !== "No license") {
-  //   return "- [License](#license)";
-  // } else {
-  //   return "";
-  // }
-
   return license !== "No license" ? "- [License](#license)" : "";
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+//Function to render License Section
+//If there is no license, function returns an empty string
 function renderLicenseSection(license) {
-  //return renderLicenseBadge(license) + renderLicenseLink(license);
   return license !== "No license"
     ? `## License 
   License: ${license}`
     : "";
 }
 
-// TODO: Create a function to generate markdown for README
+// function to generate markdowns for README using answers passed from the user
 function generateMarkdown(data) {
   return (
     `# ${data.project_title} 
@@ -52,11 +43,11 @@ ${renderLicenseLink(data.project_license)}
 
 To install necessary dependencies, run the following command:
 
-` + 
-"```" +
-`${data.project_install}` + 
-"```" +
-`
+` +
+    "```" +
+    `${data.project_install}` +
+    "```" +
+    `
 
 ## Usage
 ${data.project_usage}
